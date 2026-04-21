@@ -71,6 +71,13 @@ It returns the string --> "Access granted"
 
 age_checker("2010-01-08") => "Aceess granted"
 
+"""
+Given a date in the incorrect format 
+It returns a string --> "Invalid date format. Please use YYYY-MM-DD"
+"""
+
+age_checker("apple") => "Invalid date format. Please use YYYY-MM-DD"
+
 
 ```
 

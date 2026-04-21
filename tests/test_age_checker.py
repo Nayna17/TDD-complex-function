@@ -13,4 +13,6 @@ def test_age_16():
     result = age_checker("2010-01-08")
     assert result == "Access granted"
 
-
+def test_invalid_string_input():
+    result = age_checker("apple")
+    assert result == "Invalid date format. Please use YYYY-MM-DD."
